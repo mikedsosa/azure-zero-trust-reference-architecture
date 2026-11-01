@@ -1,5 +1,8 @@
 # Zero Trust Reference Architecture for a Mid-Size Organization on Azure and Microsoft 365
 
+## What this shows
+How I'd move an organization from a VPN-and-perimeter model to Zero Trust without stopping the business. Every significant choice is recorded as an architecture decision record with its options and trade-offs, and the design traces to Microsoft's Cybersecurity Reference Architectures and to control IDs in the Microsoft cloud security benchmark. The roadmap sequences the work by dependencies, risks, and owners, and its targets are targets, not measured results. The organization is fictional, and the identity pillar has a companion Terraform implementation in [azure-entra-identity-hardening](https://github.com/mikedsosa/azure-entra-identity-hardening), which passes static checks but isn't deployed yet.
+
 A docs-first security architecture for a **fictional** 2,500-person
 organization moving from a VPN-and-perimeter model to Zero Trust on Microsoft
 Entra, Microsoft 365, and Azure. It covers the target-state design for each
@@ -9,7 +12,7 @@ cloud security benchmark (MCSB), and a phased roadmap with risks,
 dependencies, and owners.
 
 > **What this is and isn't.** It's a design artifact written for SC-100
-> (Cybersecurity Architect) preparation and as a portfolio work sample. The
+> (Cybersecurity Architect) preparation. The
 > organization, its constraints, and its baseline are invented for the
 > exercise. Nothing here describes a real employer or customer. No outcomes
 > are claimed. Targets in the roadmap are **targets**, not measured results.
